@@ -19,7 +19,7 @@ function Home() {
           <p>Hello, My name is</p>
           <h1>Hashir</h1>
           <h2>And I'm a  <span className="typing"></span></h2>
-          <a href="/Resume HA.pdf" >Download CV</a>
+          <a href="CV/Resume HA.pdf" >Download CV</a>
         </div>
         <div className="right-content" data-aos = "fade-up" data-aos-delay= "2000">
           <img src={developer} alt=""  />
