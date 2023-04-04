@@ -23,7 +23,7 @@ function Projects() {
           <div className="carousel owl-carousel">
             <ProjectBox title = "CalgaryHacks 2020" img= {YYCAdventure} link = "https://devpost.com/software/yyc-adventures"  />
             <ProjectBox title = "CalgaryHacks 2021" img= {EduConnect} link = "https://devpost.com/software/educonnect-vu8xic"  />
-            <ProjectBox title = "Capstone Project 2023" img= {capstone}  />
+            <ProjectBox title = "Capstone Project 2023" img= {capstone} link = "https://github.com/JensVarughese/Flexiform" />
           </div>
         </div>
       </div>
