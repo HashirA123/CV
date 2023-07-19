@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/CV/static/css/main.4fc36143.css",
-    "main.js": "/CV/static/js/main.ae743f0e.js",
+    "main.js": "/CV/static/js/main.91c151cd.js",
     "static/js/787.128fc6e9.chunk.js": "/CV/static/js/787.128fc6e9.chunk.js",
     "static/media/Capstone.png": "/CV/static/media/Capstone.dd0d4215e0cac231123a.png",
     "static/media/YYCAdventure.jpg": "/CV/static/media/YYCAdventure.d3f1b7624d3e09ff2070.jpg",
@@ -10,11 +10,11 @@
     "static/media/EduConnect.jpg": "/CV/static/media/EduConnect.e1c1b5b1984261df6164.jpg",
     "index.html": "/CV/index.html",
     "main.4fc36143.css.map": "/CV/static/css/main.4fc36143.css.map",
-    "main.ae743f0e.js.map": "/CV/static/js/main.ae743f0e.js.map",
+    "main.91c151cd.js.map": "/CV/static/js/main.91c151cd.js.map",
     "787.128fc6e9.chunk.js.map": "/CV/static/js/787.128fc6e9.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.4fc36143.css",
-    "static/js/main.ae743f0e.js"
+    "static/js/main.91c151cd.js"
   ]
 }
