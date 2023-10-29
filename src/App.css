@@ -31,7 +31,7 @@ body{
 .App{
     max-width: 100%;
 }
-#loading_start{
+/* #loading_start{
     background:var(--black-body) ;
     width: 100%;
     height: 100vh;
@@ -43,15 +43,15 @@ body{
     position: fixed;
     padding: 0 0;
     margin: 0 0;
-}
+} */
 
-#loading_start p{
+/* #loading_start p{
     font-size: 2rem;
     color: var(--aqua);
     padding-right: 1rem;
     position: relative;
     top: -5px;
-}
+} */
 
 @media only screen and (max-width: 280px) {
     html{

@@ -26,6 +26,9 @@
 
 .about .right-content {
     width: 40%;
+    background-color: #0d1321;
+    margin: auto;
+    padding: 1%;
 }
 .about .right-content p{
     color: var(--white);
@@ -65,7 +68,7 @@
         list-style: none;
     }
   }
-@media only screen and (max-width: 750px) {
+@media only screen and (max-width: 800px) {
     .about-flex{
         display: block;
     }

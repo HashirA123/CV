@@ -34,7 +34,7 @@ function Projects() {
             />
             <ProjectBox
               title="Diabetes Medication Prediction"
-              img={ML}
+              img={ml}
               link="https://github.com/HashirA123/diabetes-medication"
             />
             <ProjectBox

@@ -61,7 +61,6 @@
         display: block;
     }
     .home .left-content{
-        width: 100%;
         padding-left: 2rem;
         padding-top: 17vmax;
     }
@@ -97,7 +96,7 @@
         font-size: 1.7rem;
     }
     .home .left-content{
-        padding-top: 15rem;
+        padding-top: 17rem;
     }
     .home .left-content a{
         font-size: 1.2rem;
