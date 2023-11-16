@@ -1,20 +1,21 @@
 {
   "files": {
     "main.css": "/CV/static/css/main.e94e2ec2.css",
-    "main.js": "/CV/static/js/main.5bce7d81.js",
+    "main.js": "/CV/static/js/main.25a8abb5.js",
     "static/media/Capstone.png": "/CV/static/media/Capstone.dd0d4215e0cac231123a.png",
     "static/media/ML.jpg": "/CV/static/media/ML.0f3686e753ab92be9cf9.jpg",
     "static/media/dbms.jpg": "/CV/static/media/dbms.8d242e3a29897f222bef.jpg",
+    "static/media/ML_playground.png": "/CV/static/media/ML_playground.b37342bf49054bdda249.png",
     "static/media/YYCAdventure.jpg": "/CV/static/media/YYCAdventure.d3f1b7624d3e09ff2070.jpg",
     "static/media/developer_2.png": "/CV/static/media/developer_2.661e23fe1fc3d4150a70.png",
     "static/media/myFace.jpg": "/CV/static/media/myFace.74c83ff6dafb08e1921d.jpg",
     "static/media/EduConnect.jpg": "/CV/static/media/EduConnect.e1c1b5b1984261df6164.jpg",
     "index.html": "/CV/index.html",
     "main.e94e2ec2.css.map": "/CV/static/css/main.e94e2ec2.css.map",
-    "main.5bce7d81.js.map": "/CV/static/js/main.5bce7d81.js.map"
+    "main.25a8abb5.js.map": "/CV/static/js/main.25a8abb5.js.map"
   },
   "entrypoints": [
     "static/css/main.e94e2ec2.css",
-    "static/js/main.5bce7d81.js"
+    "static/js/main.25a8abb5.js"
   ]
 }
