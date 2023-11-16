@@ -9,6 +9,7 @@ import EduConnect from "../images/EduConnect.jpg";
 import YYCAdventure from "../images/YYCAdventure.jpg";
 import dbms from "../images/dbms.jpg";
 import ml from "../images/ML.jpg";
+import ml_playground from "../images/ML_playground.png";
 
 function Projects() {
   useEffect(function () {
@@ -26,6 +27,11 @@ function Projects() {
               title="Capstone Project 2023"
               img={capstone}
               link="https://github.com/HashirA123/Flexiform"
+            />
+            <ProjectBox
+              title="ML Playground (Docker image)"
+              img={ml_playground}
+              link="https://hub.docker.com/repository/docker/hashira123/ml_playground/general"
             />
             <ProjectBox
               title="ViVi-Art-Gallery DBMS"
