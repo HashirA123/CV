@@ -18,9 +18,8 @@ function Experience() {
           <img src={myFace} alt="" />
         </div>
         <div className="right-content">
-          <h2>I'm Hashir</h2>
           <p>
-            I am passionate about applying my skills and knowledge to solve
+            {/* I am passionate about applying my skills and knowledge to solve
             real-world problems using machine learning and data analysis.
             Through my academic career, I have built a strong set of skills in
             various programming languages, most notably Java, C/C++, and many
@@ -36,7 +35,20 @@ function Experience() {
             develop and deploy ML solutions for various clients and industries.
             I am always eager to learn new technologies and tools, and I am
             looking for new grad opportunities that will challenge me and help
-            me grow as a developer. Please feel free to reach out!
+            me grow as a developer. Please feel free to reach out! */}
+            Hey there! I'm Hashir, a dynamic software engineer with a flair for
+            crafting digital experiences. I dance through the coding realms,
+            wielding languages like Java, C/C++, C#, and Python to create
+            applications that not only work but spark joy.
+          </p>
+          <p>
+            Beyond the code, I'm a problem-solving enthusiast on a journey where
+            innovation meets real-world challenges!
+          </p>
+          <p>
+            I am currently looking for new grad opportunities that will
+            challenge me and help me grow as a developer. Please feel free to
+            reach out!
           </p>
         </div>
       </div>

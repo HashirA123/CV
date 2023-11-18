@@ -3,6 +3,8 @@ import React, { useEffect } from "react";
 import "../styles/Projects.css";
 import ProjectBox from "../components/ProjectBox";
 import "aos/dist/aos.css";
+import Carousel from "react-multi-carousel";
+import "react-multi-carousel/lib/styles.css";
 
 import capstone from "../images/Capstone.png";
 import EduConnect from "../images/EduConnect.jpg";
@@ -17,12 +19,47 @@ function Projects() {
       duration: 5000,
     });
   }, []);
+  const responsive = {
+    desktop: {
+      breakpoint: { max: 3000, min: 1100 },
+      items: 3,
+      slidesToSlide: 3, // optional, default to 1.
+    },
+    tablet: {
+      breakpoint: { max: 1100, min: 830 },
+      items: 2,
+      slidesToSlide: 2, // optional, default to 1.
+    },
+    mobile: {
+      breakpoint: { max: 830, min: 0 },
+      items: 1,
+      slidesToSlide: 1, // optional, default to 1.
+    },
+  };
   return (
     <div id="Projects" className="projects">
       <h1>My Projects</h1>
       <div data-aos="fade-up">
         <div className="boxes">
-          <div className="carousel owl-carousel">
+          <Carousel
+            swipeable={true}
+            draggable={true}
+            showDots={true}
+            arrows={true}
+            responsive={responsive}
+            ssr={true} // means to render carousel on server-side.
+            infinite={true}
+            // autoPlay={this.props.deviceType !== "mobile" ? true : false}
+            // autoPlaySpeed={1000}
+            // keyBoardControl={true}
+            customTransition="all .5"
+            transitionDuration={500}
+            containerClass="carousel-container"
+            // removeArrowOnDeviceType={["tablet", "mobile"]}
+            // deviceType={this.props.deviceType}
+            dotListClass="custom-dot-list-style"
+            //itemClass="carousel-item-padding-40-px"
+          >
             <ProjectBox
               title="Capstone Project 2023"
               img={capstone}
@@ -53,7 +90,7 @@ function Projects() {
               img={EduConnect}
               link="https://devpost.com/software/educonnect-vu8xic"
             />
-          </div>
+          </Carousel>
         </div>
       </div>
     </div>

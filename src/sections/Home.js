@@ -4,6 +4,7 @@ import { useEffect } from "react";
 import Aos from "aos";
 import developer from "../images/developer_2.png";
 import "aos/dist/aos.css";
+import { TypeAnimation } from "react-type-animation";
 
 function Home() {
   useEffect(function () {
@@ -18,7 +19,22 @@ function Home() {
           <p>Hello, My name is</p>
           <h1>Hashir Ahmed</h1>
           <h2>
-            <span className="typing"></span>
+            <TypeAnimation
+              sequence={[
+                "Engineer",
+                1000,
+                "Developer",
+                1000,
+                "Versatile",
+                1000,
+                "Gamer",
+                1000,
+              ]}
+              wrapper="span"
+              speed={20}
+              style={{ fontSize: "2em", display: "inline-block" }}
+              repeat={Infinity}
+            />
           </h2>
           <a href="Resume HA.pdf">Download CV</a>
         </div>
