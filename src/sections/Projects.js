@@ -7,6 +7,7 @@ import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
 
 import capstone from "../images/Capstone.png";
+import scholarSpace from "../images/HomeLoggedIn.png";
 import EduConnect from "../images/EduConnect.jpg";
 import YYCAdventure from "../images/YYCAdventure.jpg";
 import dbms from "../images/dbms.jpg";
@@ -64,6 +65,11 @@ function Projects() {
               title="Capstone Project 2023"
               img={capstone}
               link="https://github.com/HashirA123/Flexiform"
+            />
+            <ProjectBox
+              title="ScholarSpace"
+              img={scholarSpace}
+              link="https://github.com/HashirA123/OLP_MERN"
             />
             <ProjectBox
               title="ML Playground (Docker image)"
