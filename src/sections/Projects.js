@@ -8,6 +8,7 @@ import "react-multi-carousel/lib/styles.css";
 
 import capstone from "../images/Capstone.png";
 import scholarSpace from "../images/HomeLoggedIn.png";
+import ad_skipper from "../images/Ad_Skipper.png";
 import EduConnect from "../images/EduConnect.jpg";
 import YYCAdventure from "../images/YYCAdventure.jpg";
 import dbms from "../images/dbms.jpg";
@@ -75,6 +76,11 @@ function Projects() {
               title="ML Playground (Docker image)"
               img={ml_playground}
               link="https://hub.docker.com/repository/docker/hashira123/ml_playground/general"
+            />
+            <ProjectBox
+              title="Youtube Auto Ad-Skipper"
+              img={ad_skipper}
+              link="https://github.com/HashirA123/Ad-Skipper"
             />
             <ProjectBox
               title="ViVi-Art-Gallery DBMS"
