@@ -44,7 +44,7 @@
 }
 
 .home .right-content img {
-  width: min(430px, 100%);
+  width: min(600px, 100%);
   animation: floatY 5s ease-in-out infinite;
 }
 

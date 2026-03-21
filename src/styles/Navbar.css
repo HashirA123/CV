@@ -22,6 +22,7 @@
   font-weight: 700;
   color: var(--primary);
   letter-spacing: 0.3px;
+  font-size: x-large;
 }
 
 .nav-links {
@@ -45,6 +46,24 @@
   background: var(--primary-soft);
 }
 
+.theme-toggle {
+  border: 1px solid var(--border);
+  background: var(--surface);
+  color: var(--text);
+  border-radius: 999px;
+  padding: 0.45rem 0.8rem;
+  font-weight: 600;
+  font-family: "Readex Pro", sans-serif;
+  cursor: pointer;
+  transition: all 0.25s ease;
+}
+
+.theme-toggle:hover {
+  color: var(--primary);
+  border-color: var(--primary);
+  background: var(--primary-soft);
+}
+
 .menu-toggle {
   display: none;
   border: 1px solid var(--border);
@@ -56,6 +75,10 @@
 }
 
 @media (max-width: 760px) {
+  .theme-toggle {
+    margin-left: auto;
+  }
+
   .menu-toggle {
     display: inline-flex;
     align-items: center;

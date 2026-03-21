@@ -1,7 +1,8 @@
 @import url("https://fonts.googleapis.com/css2?family=Readex+Pro:wght@400;600;700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap");
 
-:root {
+:root,
+[data-theme="light"] {
   --bg: #f3f7ff;
   --surface: #ffffff;
   --surface-soft: #e9eefc;
@@ -13,18 +14,16 @@
   --shadow: 0 10px 30px rgba(21, 40, 85, 0.14);
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --bg: #0b1221;
-    --surface: #111a2f;
-    --surface-soft: #151f37;
-    --text: #f3f6fc;
-    --text-soft: #d0d8ee;
-    --primary: #8ea2ff;
-    --primary-soft: #223162;
-    --border: #253454;
-    --shadow: 0 12px 34px rgba(0, 0, 0, 0.4);
-  }
+[data-theme="dark"] {
+  --bg: #0b1221;
+  --surface: #111a2f;
+  --surface-soft: #151f37;
+  --text: #f3f6fc;
+  --text-soft: #d0d8ee;
+  --primary: #8ea2ff;
+  --primary-soft: #223162;
+  --border: #253454;
+  --shadow: 0 12px 34px rgba(0, 0, 0, 0.4);
 }
 
 * {

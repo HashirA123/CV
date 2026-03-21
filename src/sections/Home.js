@@ -12,13 +12,13 @@ function Home() {
           <h1>Hashir Ahmed</h1>
           <h2>
             <TypeAnimation
-              sequence={["Engineer", 1200, "Developer", 1200, "Versatile", 1200, "Gamer", 1200]}
+              sequence={["Engineer", 1200, "Developer", 1200, "Researcher", 1200, "Gamer", 1200]}
               wrapper="span"
               speed={25}
               repeat={Infinity}
             />
           </h2>
-          <a href="Resume HA.pdf">Download CV</a>
+          <a href="Hashir-Ahmed_Resume.pdf">Download CV</a>
         </div>
         <div className="right-content" data-aos="zoom-in" data-aos-delay="250">
           <img src={developer} alt="Developer illustration" />
