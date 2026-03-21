@@ -1,48 +1,19 @@
-.projects{
-  margin-top: 10%;
-  padding: 3rem 3rem;
-  font-family: "Readex-Pro", sans-serif;
-  background-color: transparent;
-  /* height: auto; */
-}
-.projects h1{
-  color: var(--white);
+.projects h1 {
   text-align: center;
-  padding-bottom: 2rem;
-}
-.projects .text{
-  color: var(--white);
-  font-size: 1rem;
-  padding: 1rem 1rem 2rem 1rem;
-  line-height: 1.5rem;
-  text-align:justify;
+  margin-bottom: 0.6rem;
+  font-size: clamp(1.8rem, 4vw, 2.6rem);
 }
 
-.owl-dots{
+.projects .text {
   text-align: center;
-  margin-top: 20px;
-}
-.owl-dot{
-  height: 13px;
-  width: 13px;
-  margin: 0 5px;
-  outline: none !important;
-  border-radius: 50%;
-  border: 2px solid var(--aqua) !important;
-  transition: all 0.3s ease;
-}
-.owl-dot.active{
-  width: 35px;
-  border-radius: 14px;
-}
-.owl-dot.active,
-.owl-dot:hover{
-  background: var(--aqua) !important;
+  color: var(--text-soft);
+  margin-bottom: 1.8rem;
 }
 
+.projects .boxes {
+  padding: 0.4rem;
+}
 
-@media only screen and (max-width: 1000px) {
-  .projects{
-      padding: 3rem 1rem;
-  }
+.custom-dot-list-style button {
+  border-color: var(--primary) !important;
 }

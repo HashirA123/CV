@@ -4,29 +4,22 @@ import ContactBox from "../components/ContactBox";
 
 function Contact() {
   return (
-    <div id="Contact" className="contact">
-      <h1>Contact Me</h1>
+    <section className="contact page">
+      <h1 data-aos="fade-up">Contact Me</h1>
+      <p className="contact-copy" data-aos="fade-up" data-aos-delay="80">
+        I'd love to hear about opportunities, collaborations, or interesting ideas.
+      </p>
       <div className="boxes">
-        <ContactBox
-          animation="fade-right"
-          class="fas fa-envelope"
-          name="Email"
-          link="mailto:hashirahmed204@gmail.com"
-        />
+        <ContactBox animation="fade-up" iconClass="fas fa-envelope" name="Email" link="mailto:hashirahmed204@gmail.com" />
+        <ContactBox animation="fade-up" iconClass="fab fa-github" name="GitHub" link="https://github.com/HashirA123" />
         <ContactBox
           animation="fade-up"
-          class="fab fa-github"
-          name="Github"
-          link="https://github.com/HashirA123"
-        />
-        <ContactBox
-          animation="fade-left"
-          class="fab fa-linkedin"
-          name="Linkedin"
+          iconClass="fab fa-linkedin"
+          name="LinkedIn"
           link="https://www.linkedin.com/in/hashirahmed204/"
         />
       </div>
-    </div>
+    </section>
   );
 }
 
