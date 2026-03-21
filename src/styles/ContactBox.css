@@ -1,44 +1,29 @@
-.contact .boxes .box{
-    width: 30%;
-    height: 30%;
-    padding: 3rem 1rem;
-    margin: 2rem 3rem;
-    background: var(--black-high);
-    border-radius: 1rem;
-    cursor: pointer;
-}
-.contact .boxes .box .center i{
-    font-weight: bold;
-    font-size: 4rem;
-    padding-bottom: 2rem;
-    color: var(--aqua);
-}
-.contact .boxes .box .center i:hover{
-    transform: scale(1.1);
-}
-.contact .boxes .box .center p{
-    color: var(--white);
-    font-size: 1.4rem;
-    font-weight: bold;
-}
-.boxes .box .center{
-    display: flex;
-    margin: auto;
+.contact .boxes .box {
+  border: 1px solid var(--border);
+  border-radius: 1rem;
+  background: var(--surface);
+  padding: 2rem 1rem;
+  box-shadow: var(--shadow);
+  transition: transform 0.2s ease, border-color 0.2s ease;
 }
 
-@media only screen and (max-width: 780px) {
-    .contact .boxes .box{
-        width: 70%;
-        height: 70%;
-        margin: 3rem auto;
-    }
-
+.contact .boxes .box:hover {
+  transform: translateY(-4px);
+  border-color: var(--primary);
 }
-@media only screen and (max-width: 500px) {
-    .contact .boxes .box{
-        width: 100%;
-        height: 100%;
-        margin: 3rem auto;
-    }
 
+.contact .boxes .box .center {
+  display: flex;
+  justify-content: center;
+}
+
+.contact .boxes .box i {
+  font-size: 2.4rem;
+  color: var(--primary);
+}
+
+.contact .boxes .box p {
+  margin-top: 0.7rem;
+  color: var(--text);
+  font-weight: 600;
 }

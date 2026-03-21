@@ -1,29 +1,16 @@
 import React from "react";
 import "../styles/ProjectBox.css";
 
-import { useEffect } from "react";
-import Aos from "aos";
-import "aos/dist/aos.css";
-
-function ProjectBox(props) {
-  useEffect(() => {
-    Aos.init({
-      duration: 1000,
-    });
-  }, []);
+function ProjectBox({ link, img, title }) {
   return (
-    <div className="projectbox">
-      <a href={props.link} target="_blank" rel="noopener noreferrer">
-        <img
-          // style={{ height: "150px", width: "auto" }}
-          src={props.img}
-          alt="images"
-        />
+    <article className="projectbox">
+      <a href={link} target="_blank" rel="noopener noreferrer">
+        <img src={img} alt={title} />
       </a>
       <div className="details">
-        <p>{props.title}</p>
+        <p>{title}</p>
       </div>
-    </div>
+    </article>
   );
 }
 

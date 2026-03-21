@@ -1,27 +1,42 @@
 import "./App.css";
-// import { PulseLoader } from "react-spinners";
+import { BrowserRouter, Navigate, Route, Routes } from "react-router-dom";
+import { useEffect } from "react";
+import Aos from "aos";
+import "aos/dist/aos.css";
 
 import Navbar from "./components/Navbar";
+import Footer from "./components/Footer";
 import Home from "./sections/Home";
 import Experience from "./sections/Experience";
 import Projects from "./sections/Projects";
 import Contact from "./sections/Contact";
-import Footer from "./components/Footer";
 
 function App() {
+  useEffect(() => {
+    Aos.init({
+      duration: 900,
+      once: true,
+      easing: "ease-out-cubic",
+      offset: 70,
+    });
+  }, []);
+
   return (
-    <div className="App">
-      {/* <div id="loading_start" className='loading_start_none'>
-        <p>Loading</p>
-        <PulseLoader color={"#31365F"} size={12} />
-      </div> */}
-      <Navbar />
-      <Home />
-      <Experience />
-      <Projects />
-      <Contact />
-      <Footer />
-    </div>
+    <BrowserRouter basename={process.env.PUBLIC_URL}>
+      <div className="App">
+        <Navbar />
+        <main className="page-shell">
+          <Routes>
+            <Route path="/" element={<Home />} />
+            <Route path="/about" element={<Experience />} />
+            <Route path="/projects" element={<Projects />} />
+            <Route path="/contact" element={<Contact />} />
+            <Route path="*" element={<Navigate to="/" replace />} />
+          </Routes>
+        </main>
+        <Footer />
+      </div>
+    </BrowserRouter>
   );
 }
 

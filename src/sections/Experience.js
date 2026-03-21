@@ -1,58 +1,30 @@
-import Aos from "aos";
-import React, { useEffect } from "react";
+import React from "react";
 import myFace from "../images/myFace.jpg";
 import "../styles/Experience.css";
-import "aos/dist/aos.css";
 
 function Experience() {
-  useEffect(function () {
-    Aos.init({
-      duration: 1000,
-    });
-  }, []);
   return (
-    <div id="About" className="about">
-      <h1>About me</h1>
-      <div className="about-flex" data-aos="fade-up">
-        <div className="left-content">
-          <img src={myFace} alt="" />
+    <section className="about page">
+      <h1 data-aos="fade-up">About Me</h1>
+      <div className="about-flex">
+        <div className="left-content" data-aos="fade-right" data-aos-delay="120">
+          <img src={myFace} alt="Hashir Ahmed portrait" />
         </div>
-        <div className="right-content">
+        <div className="right-content" data-aos="fade-left" data-aos-delay="220">
           <p>
-            {/* I am passionate about applying my skills and knowledge to solve
-            real-world problems using machine learning and data analysis.
-            Through my academic career, I have built a strong set of skills in
-            various programming languages, most notably Java, C/C++, and many
-            useful programming paradigms. I also have valuable experience when
-            it comes to version control through GIT, and web development with
-            JavaScript, PHP, and MySQL. Along with the academic skills, I am
-            also building strong interpersonal and communication skills through
-            volunteering in places like the Students Union at U of C. Though
-            there may be skills that I have not yet learned or perfected, I am
-            always up to new challenges, always seeking to better myself as a
-            person and professional. Currently, I am an Associate Machine
-            Learning Developer at AltaML, where I work with a team of experts to
-            develop and deploy ML solutions for various clients and industries.
-            I am always eager to learn new technologies and tools, and I am
-            looking for new grad opportunities that will challenge me and help
-            me grow as a developer. Please feel free to reach out! */}
-            Hey there! I'm Hashir, a dynamic software engineer with a flair for
-            crafting digital experiences. I dance through the coding realms,
-            wielding languages like Java, C/C++, C#, and Python to create
-            applications that not only work but spark joy.
+            Hey there! I'm Hashir, a software engineer who enjoys crafting polished digital experiences.
+            I work with Java, C/C++, C#, and Python to build software that is practical, reliable, and
+            enjoyable to use.
           </p>
           <p>
-            Beyond the code, I'm a problem-solving enthusiast on a journey where
-            innovation meets real-world challenges!
+            Beyond coding, I love solving real-world problems where creativity and engineering meet.
+            I am currently looking for new graduate opportunities where I can keep learning and deliver
+            meaningful impact.
           </p>
-          <p>
-            I am currently looking for new grad opportunities that will
-            challenge me and help me grow as a developer. Please feel free to
-            reach out!
-          </p>
+          <p>Please feel free to reach out — I'd be glad to connect.</p>
         </div>
       </div>
-    </div>
+    </section>
   );
 }
 
